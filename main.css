@@ -3,13 +3,18 @@
     font-family: 'Poppins';
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
 
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1400px) {
 
     #wrapper {
         max-width: 1440px;
@@ -122,15 +127,19 @@ body {
         padding: 20px auto;
     }
 
+    #banner #left h2 br {
+        display: block;
+    }
+
     .flow #left {
-        grid-column: 2/6;
+        grid-column: 7/13;
         grid-row: 1/3;
         margin-top: 35px;
 
     }
 
     .flow #right {
-        grid-column: 7/13;
+        grid-column: 2/6;
         grid-row: 1/3;
     }
 
@@ -481,9 +490,6 @@ body {
         list-style-type: none;
     }
 
-    footer li i {
-        /* margin-right: 10px; */
-    }
 
     footer li.huddleLogo {
         width: 100%;
